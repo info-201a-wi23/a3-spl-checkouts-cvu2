@@ -5,7 +5,7 @@ output: html_document
 
 ### Introduction
 
-An introduction of the data and a description of the trends/books/items you are choosing to analyze (and why!)
+The data I am analyzing is from the Seattle Public Library pertaining to all the items checked out within the past year of 2022-2023. I decided to explore the trends of one of my favorite authors, Rick Riordan. He is the creator of the Percy Jackson series, Heroes of Olympia, Kane Chronicles, etc. I decided to look into his books because growing up reading works really helped me grow as a person. I am curious to see if he is still popular today as he was when I was a child. 
 
 ### Summary Information
 
@@ -22,12 +22,10 @@ Feel free to calculate and report values that you find relevant.
 
 ### The Dataset
 
-- Who collected/published the data?  
-- What are the parameters of the data (dates, number of checkouts, kinds of books, etc.)?
-- How was the data collected or generated?  
-- Why was the data collected?  
-- What, if any, ethical questions do you need to consider when working with this data?  
-- What are possible limitations or problems with this data?   (at least 200 words)
+The data was collected and published by the Seattle Public Library. The data is up to a recent date as of February 21, 2023. It contains the number of checkouts, the subjects, the checkout year and month, usage classification, type of checkout, material type, publisher, ISBN, and titles. The data was generated with the [SPL Open Data Portal](https://data.seattle.gov/Community/Checkouts-by-Title/tmmm-ytt6/explore/query/SELECT%0A%20%20%60usageclass%60%2C%0A%20%20%60checkouttype%60%2C%0A%20%20%60materialtype%60%2C%0A%20%20%60checkoutyear%60%2C%0A%20%20%60checkoutmonth%60%2C%0A%20%20%60checkouts%60%2C%0A%20%20%60title%60%2C%0A%20%20%60isbn%60%2C%0A%20%20%60creator%60%2C%0A%20%20%60subjects%60%2C%0A%20%20%60publisher%60%2C%0A%20%20%60publicationyear%60/page/filter). The data was collected so I could analyze trends with a specific author, Rick Riordan, at the Seattle Public Library. 
+
+Some possible limitation of this data is that there are authors who republish Riordans work under their name, such as a graphic novel adaptation. Even though he is the creator of the source material, he is not mentioned in the creator column of the data. I believe these limitations will not fully account for Riordan’s influence and popularity. 
+
 
 
 ### First Trends Over Time Chart
