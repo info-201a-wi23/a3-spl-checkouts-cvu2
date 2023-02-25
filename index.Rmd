@@ -9,16 +9,7 @@ The data I am analyzing is from the Seattle Public Library pertaining to all the
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
-
-These will likely be calculated using your DPLYR skills, answering questions such as:
-
-- What is the average number of checkouts for each item?
-- What is the month or year with the most/least checkouts for a book that you're interested in?
-- What is the month or year with the most/least checkouts for ebooks?
-- How has the number of print book checkouts changed over time?
-
-Feel free to calculate and report values that you find relevant.
+This Rick Riordan dataset contains a total of 282 unique book titles. The total number of checkouts of only titles by Rick Riordan is 169871. The year with the most checkouts of titles by Riordan was 2012. The title with the most checkouts was a physical book called “The Mark of Athena” with 177 checkouts in one month.
 
 ### The Dataset
 
@@ -32,6 +23,9 @@ Some possible limitation of this data is that there are authors who republish Ri
 
 ``````{r, echo = FALSE, warning = FALSE, code = readLines("Chart1.R"), warning = F, message = F}
 ```
+
+#Explain 
+
 
 ### Second Trends Over Time Chart
 
@@ -50,10 +44,10 @@ When we say "clear" or "human readable" titles and labels, that means that you s
 
 Here's an example of how to run an R script inside an RMarkdown file:
 
-``````{r, echo = FALSE, code = readLines("chart2_example.R")}
+``````{r, echo = FALSE, code = readLines("Chart")}
 ```
 
-### Your Choice
+### Rick Riordan's Top 5 Titles
 
 The last chart is up to you. It could be a line plot, scatter plot, histogram, bar plot, stacked bar plot, and more. Here are some requirements to help guide your design:
 
@@ -63,7 +57,7 @@ The last chart is up to you. It could be a line plot, scatter plot, histogram, b
 
 Here's an example of how to run an R script inside an RMarkdown file:
 
-``````{r, echo = FALSE, code = readLines("chart2_example.R")}
+``````{r, echo = FALSE, warning = FALSE, code = readLines("Chart3.R), warning = F, message = F}
 ```
 
 
