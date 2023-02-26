@@ -7,6 +7,7 @@ Riordan_df  <- read.csv("~/Desktop/INFO201/Checkouts_by_Title.csv", stringsAsFac
 
 ggplot(data = Riordan_df)+
   geom_col(aes(x = MaterialType, y = Checkouts, fill = MaterialType))+
+  scale_y_continuous(labels = label_number_si())+
   labs(title = "Number of Checkouts in Correlation to Type of Medium",
        x = "Material Type",
        y = "Checkouts") 

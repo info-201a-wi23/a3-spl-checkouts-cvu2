@@ -10,8 +10,6 @@ Avg_checkouts <- Riordan_df %>%
   group_by(CheckoutMonth) %>% 
   summarise(avg_checkouts = mean(Checkouts))
 
-View(Avg_checkouts)
-
 ggplot(data = Avg_checkouts)+
   geom_line(aes(x = CheckoutMonth, y = avg_checkouts, color = "pink"))+
   scale_x_continuous(breaks = seq(1,12,1))+

@@ -13,19 +13,17 @@ summary(Riordan_df)
  print(Riordan_titles)
  
 num_checkouts <- sum(Riordan_df$Checkouts)
-print(num_checkouts)
+
 
 most_checkouts <- Riordan_df %>% 
   filter(Checkouts == max(Checkouts, na.rm = TRUE)) %>% 
   pull(CheckoutYear)
 
-print(most_checkouts)
 
 least_checkouts <- Riordan_df %>% 
-  group_by(MaterialType) %>% 
-  filter(Checkouts == max(Checkouts, na.rm = TRUE)) %>% 
-  pull(CheckoutYear)
+  group_by(Checkouts) %>% 
+  filter(Checkouts == min(Checkouts, na.rm = TRUE)) %>% 
+  pull(MaterialType)
 
-print(least_checkouts)
 
 
