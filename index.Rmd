@@ -9,11 +9,11 @@ The data I am analyzing is from the Seattle Public Library pertaining to all the
 
 ### Summary Information
 
-This Rick Riordan dataset contains a total of 282 unique book titles. The total number of checkouts of only titles by Rick Riordan is 169871. The year with the most checkouts of titles by Riordan was 2012. The title with the most checkouts was a physical book called “The Mark of Athena” with 177 checkouts in one month.
+This Rick Riordan dataset contains a total of 282 unique book titles. His works have been published with 56 different publishing companies. The total number of checkouts of only titles by Rick Riordan is 169871. The year with the most checkouts of titles by Riordan was 2012. The title with the most checkouts was a physical book called “The Mark of Athena” with 177 checkouts in one month.
 
 ### The Dataset
 
-The data was collected and published by the Seattle Public Library. The data is up to a recent date as of February 21, 2023. It contains the number of checkouts, the subjects, the checkout year and month, usage classification, type of checkout, material type, publisher, ISBN, and titles. The data was generated with the [SPL Open Data Portal](https://data.seattle.gov/Community/Checkouts-by-Title/tmmm-ytt6/explore/query/SELECT%0A%20%20%60usageclass%60%2C%0A%20%20%60checkouttype%60%2C%0A%20%20%60materialtype%60%2C%0A%20%20%60checkoutyear%60%2C%0A%20%20%60checkoutmonth%60%2C%0A%20%20%60checkouts%60%2C%0A%20%20%60title%60%2C%0A%20%20%60isbn%60%2C%0A%20%20%60creator%60%2C%0A%20%20%60subjects%60%2C%0A%20%20%60publisher%60%2C%0A%20%20%60publicationyear%60/page/filter). The data was collected so I could analyze trends with a specific author, Rick Riordan, at the Seattle Public Library. 
+The data was collected and published by the Seattle Public Library. The data is up to a recent date as of February 21, 2023. With 16673 rows and 12 columns. The columns consist of the number of checkouts, the subjects, the checkout year and month, usage classification, type of checkout, material type, publisher, ISBN, and titles.  The data was generated with the [SPL Open Data Portal](https://data.seattle.gov/Community/Checkouts-by-Title/tmmm-ytt6/explore/query/SELECT%0A%20%20%60usageclass%60%2C%0A%20%20%60checkouttype%60%2C%0A%20%20%60materialtype%60%2C%0A%20%20%60checkoutyear%60%2C%0A%20%20%60checkoutmonth%60%2C%0A%20%20%60checkouts%60%2C%0A%20%20%60title%60%2C%0A%20%20%60isbn%60%2C%0A%20%20%60creator%60%2C%0A%20%20%60subjects%60%2C%0A%20%20%60publisher%60%2C%0A%20%20%60publicationyear%60/page/filter). The data was collected so I could analyze trends with a specific author, Rick Riordan, at the Seattle Public Library. 
 
 Some possible limitation of this data is that there are authors who republish Riordans work under their name, such as a graphic novel adaptation. Even though he is the creator of the source material, he is not mentioned in the creator column of the data. I believe these limitations will not fully account for Riordan’s influence and popularity. 
 
@@ -25,7 +25,7 @@ Some possible limitation of this data is that there are authors who republish Ri
 
 I included this chart to see the demographics of the type of readers who check out Rick Riordan's titles. I wanted to see the trends of how many readers enjoy physical books more than E-books or audiobooks. This can show his popularity within his audience if they are more digital readers or who come in and want to hold the book. 
  
-This bar graph above shows the types of mediums people at the Seattle Public library check out the most when it comes to titles from the author Rick Riordan. We can see that the medium with the most checkouts is a physical book. With around a little over 85k checkouts between 2005-2023. There are no checkouts with the medium of Regprint, but that could also be assumed there were no titles by Rick Riordan offered in the medium. Therefore, the least checked-out medium overall is Audiobooks with an estimated total of 10k checkouts between 2005-2023. 
+This bar graph above shows the types of mediums people at the Seattle Public library check out the most when it comes to titles from the author Rick Riordan. With this bar graph is it easiest to see the different types of mediums. We can see that the medium with the most checkouts is a physical book. With around a little over 85k checkouts between 2005-2023. There are no checkouts with the medium of Regprint, but that could also be assumed there were no titles by Rick Riordan offered in the medium. Therefore, the least checked-out medium overall is Audiobooks with an estimated total of 10k checkouts between 2005-2023. 
 
 ### Average Checkouts over the Months
 
@@ -33,6 +33,9 @@ This bar graph above shows the types of mediums people at the Seattle Public lib
 
 ``````
 
+In this chart, I wanted to show the season or months in which people check out Rick Riordan's titles the most. This trend is displayed as a line graph to clearly show the highs and lows of the averages. I created a data frame of the average checkouts in a total of all titles per month over all years. This data frame accounts for the years 2005-2023, averaging checkouts by the month. 
+
+This singular line graph shows the most checkouts over all the years is July with an average of about 11.24 checkouts per month. The least amount of checkouts was an average of about 9.5 in the month of February. This is data is not as surprising since Riordan’s main demographic is young adults to teenagers. More of his audience have time in the summer when school is not in session to indulge in his works. 
 
 ### Rick Riordan's Top 5 Titles
 
@@ -40,7 +43,7 @@ This bar graph above shows the types of mediums people at the Seattle Public lib
 
 ``````
 
-For this graph, I wanted to show the top 5 book titles from Rick Riordan and display the number of checkouts in correlation to the Checkout Year. 
+For this graph, I wanted to show the top 5 book titles from Rick Riordan and display the number of checkouts in correlation to the Checkout Year. I chose a plot graph for this data to show the different titles as a point, and to display the general curve of checkouts over the years.
 
 The top 5 titles consist of:
 
